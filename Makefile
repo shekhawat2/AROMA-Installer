@@ -5,6 +5,7 @@ AROMA_NAME    := AROMA Installer
 AROMA_VERSION := 3.00b1
 AROMA_BUILD   := $(shell date +%y%m%d%H)
 AROMA_CN      := Flamboyan
+ARCH          ?= arm
 
 CC := $(CROSS_COMPILE)gcc
 CXX := $(CROSS_COMPILE)g++
